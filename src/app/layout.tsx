@@ -13,15 +13,15 @@ const fontMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "amorim",
-  description: "amorim",
+  title: "Sardilla Portfolio",
+  description: "Portofolio Sardilla — Web Developer & UI Designer.",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body className={`${fontSans.variable} ${fontMono.variable} antialiased`}>
